@@ -1,0 +1,17 @@
+/* 과제ch01:
+다음 테스트가 성공하도록 spring.test.ch01.home.Nums.getMax() 를 작성하세요.
+
+package spring.test.ch01.home;
+
+import java.util.Arrays;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class NumsTest {
+	@Test
+	public void testGetMax() {
+		Nums nums = new Nums(Arrays.asList(-1, -2, -3));
+		assertEquals(-1, nums.getMax());
+	}
+}
+*/
